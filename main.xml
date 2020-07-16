@@ -1,0 +1,128 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<include>./config.xml</include>	
+	
+	<view name="system, basic, detailed, video">
+	
+		<helpsystem name="help">
+			<fontPath>./art/Digital-Serial-Bold.ttf</fontPath>
+			<origin>0.5 1</origin>
+			<!-- <pos>0.5 0.985</pos> -->
+                        <pos>0.5 0.95</pos>
+			<fontSize>0.034</fontSize>
+		</helpsystem>	
+		
+		<image name="logo">
+			<path>./art/logos/${system.theme}.png</path>
+		</image>
+		
+		<text name="logoText">
+			<fontSize>0.08</fontSize>
+			<color>ffcc00</color>
+			<forceUppercase>true</forceUppercase>
+			<text>${system.fullName}</text>	
+			<fontPath>./art/Road_Rage.otf</fontPath>
+		</text>		
+
+	</view>
+	
+	
+	
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>	
+	
+
+		
+
+		
+		<carousel name="systemcarousel">
+			<!-- <type>horizontal_wheel</type> -->
+                        <type>horizontal</type>
+			<logoRotationOrigin>0.5 25</logoRotationOrigin>			
+			<logoRotation>15</logoRotation>
+			<logoAlignment>center</logoAlignment>
+			<color>00000000</color>
+			<logoScale>1.5</logoScale>
+			<logoSize>0.3 0.1111111111111111</logoSize>
+			<size>1 1</size>
+			<pos>0 -0.1</pos>
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>		
+		
+		<text name="systemInfo">
+			<backgroundColor>00000000</backgroundColor>
+			<fontPath>./art/Digital-Serial-Bold.ttf</fontPath>
+			<fontSize>0.0444444444444444</fontSize>
+			<size>0.2875 0.0305555555555556</size>
+			<pos>0.5 0.6</pos>
+			<color>ffffffaa</color>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+			<zIndex>100</zIndex>			
+		</text>
+		
+	</view>
+
+	
+	<view name="basic, detailed, video">
+
+
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>	
+		
+		<textlist name="gamelist">
+			<selectorImagePath>./art/selector.png</selectorImagePath>
+			<selectorHeight>0.0648148148148148</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/Digital-Serial-Bold-folder.ttf</fontPath>
+			<fontSize>0.0425925925925926</fontSize>
+			<lineSpacing>1.739130434782609</lineSpacing>
+			<primaryColor>ffffff66</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<size>0.5625 0.6666666666666667</size>
+			<pos>0.2786458333333333 0.5324074074074074</pos>
+			<horizontalMargin>0.05</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>			
+		
+		<image name="logo">
+			<maxSize>0.5 0.11</maxSize>
+			<!-- <pos>0.2916666666666667 0.0833333333333333</pos> -->
+                <!-- direita = maior para direita - menor para esquerda--><pos>0.79 0.77</pos> <!-- esquerda = maior para baixo - menor para cima-->
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="logoText">
+			<size>0.5208333333333333 0.162962962962963</size>
+			<pos>0.2916666666666667 0.0833333333333333</pos>
+			<origin>0.5 0.5</origin>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>2 2</pos>
+		</rating>	
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>2 2</pos>
+		</datetime>		
+		
+		<image name="md_marquee">
+			<maxSize>0.1 0.1</maxSize>
+			<pos>2 2</pos>
+		</image>
+
+		
+	</view>
+
+</theme>

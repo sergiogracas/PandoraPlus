@@ -1,0 +1,8 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<include>./colour.xml</include>	
+	<include>./config.xml</include>
+	<include>./main.xml</include>
+
+</theme>

@@ -1,0 +1,36 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+
+	
+	<view name="system, basic, detailed, video">
+	
+		<helpsystem name="help">
+			<textColor>ffc301</textColor>
+			<iconColor>ffc301</iconColor>
+		</helpsystem>	
+
+
+	</view>
+	
+	
+	
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<path>./../../art/backgrounds/system_select_samus.png</path>
+		</image>	
+
+	</view>
+
+	
+	<view name="basic, detailed, video">
+
+
+		<image name="background" extra="true">
+			<path>./../../art/backgrounds/gamelist_samus.png</path>
+		</image>	
+		
+	</view>
+
+</theme>

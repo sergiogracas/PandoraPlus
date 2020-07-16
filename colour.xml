@@ -1,0 +1,7 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+<!-- COLOUR: See included colour guide for options.'-->	
+	<include>./settings/colours/green.xml</include>
+	
+</theme>

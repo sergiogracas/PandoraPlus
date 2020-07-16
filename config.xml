@@ -1,0 +1,8 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+<!-- SCALING: Choose how preview images/videos are scaled. Either 'image-fit.xml' or 'image-stretch.xml'-->	
+	<include>./settings/image-fit.xml</include>	
+
+	
+</theme>
